@@ -1,10 +1,6 @@
-\# Phần 1: Giới thiệu các Mô hình Tiến trình Phần mềm
+\# HỆ THỐNG QUẢN LÝ PHÒNG KHÁM ĐƠN GIẢN  
 
-
-
-Các mô hình tiến trình phần mềm (Software Process Models) là những phương pháp luận giúp cấu trúc, lập kế hoạch và kiểm soát quá trình phát triển một hệ thống thông tin.  
-
-Mỗi mô hình có ưu và nhược điểm riêng, phù hợp với các loại dự án khác nhau.
+\*(Clinic Management System – CMS)\*
 
 
 
@@ -12,67 +8,23 @@ Mỗi mô hình có ưu và nhược điểm riêng, phù hợp với các loạ
 
 
 
-\## Mô hình Thác nước (Waterfall Model)
+\## 📘 Giới thiệu
 
 
 
-\### Khái niệm
+\*\*Hệ thống Quản lý Phòng khám Đơn giản\*\* là một ứng dụng phần mềm giúp số hóa quy trình quản lý của một phòng khám tư nhân hoặc phòng y tế nhỏ.  
 
-Đây là mô hình truyền thống và đơn giản nhất, thực hiện các giai đoạn phát triển phần mềm một cách tuần tự, nghiêm ngặt.  
+Dự án được xây dựng nhằm hỗ trợ các hoạt động cơ bản như:
 
-Giai đoạn sau chỉ bắt đầu khi giai đoạn trước đã hoàn thành hoàn toàn.
+\- Quản lý thông tin bệnh nhân, bác sĩ và nhân viên.  
 
+\- Quản lý lịch hẹn, hồ sơ bệnh án và đơn thuốc.  
 
-
-\*\*Các giai đoạn:\*\*
-
-
-
-\### Đặc điểm
-
-\- Tuyến tính, tuần tự.  
-
-\- Yêu cầu phải được xác định rõ ràng và đầy đủ ngay từ đầu.  
-
-\- Ít có sự linh hoạt để thay đổi yêu cầu giữa chừng.  
+\- Quản lý thanh toán và thống kê doanh thu.  
 
 
 
-\### Ví dụ tương tự
-
-Xây một ngôi nhà:  
-
-Bạn phải có bản thiết kế hoàn chỉnh trước khi xây móng,  
-
-xây xong móng mới xây tường, và cứ thế tiếp tục.  
-
-Không thể đang xây tầng 2 lại thay đổi thiết kế móng.
-
-
-
-\### Ưu điểm
-
-\- Dễ quản lý, theo dõi tiến độ.  
-
-\- Mỗi giai đoạn có mục tiêu và sản phẩm rõ ràng.
-
-
-
-\### Nhược điểm
-
-\- Cứng nhắc, khó thay đổi giữa chừng.  
-
-\- Rủi ro cao nếu yêu cầu ban đầu không chính xác.  
-
-\- Sản phẩm chỉ được thấy ở giai đoạn cuối.
-
-
-
-\### Khi nên dùng
-
-\- Dự án nhỏ, yêu cầu rõ ràng ngay từ đầu.  
-
-\- Không có khả năng thay đổi yêu cầu.
+Dự án được thực hiện theo \*\*mô hình tiến trình phần mềm Incremental Model\*\*, cho phép phát triển hệ thống theo từng phần (module) và mở rộng dần.
 
 
 
@@ -80,59 +32,17 @@ Không thể đang xây tầng 2 lại thay đổi thiết kế móng.
 
 
 
-\## Mô hình Tăng trưởng (Incremental Model)
+\## 🎯 Mục tiêu
 
 
 
-\### Khái niệm
+\- Giảm thao tác giấy tờ trong phòng khám.  
 
-Mô hình này chia dự án thành nhiều phần nhỏ (increments).  
+\- Quản lý dữ liệu bệnh nhân, bác sĩ và lịch khám tập trung.  
 
-Mỗi phần đi qua các giai đoạn như trong Waterfall,  
+\- Hỗ trợ bác sĩ lưu trữ hồ sơ khám và đơn thuốc điện tử.  
 
-nhưng tạo ra một phiên bản sản phẩm hoạt động được sau mỗi lần lặp.
-
-
-
-\### Đặc điểm
-
-\- Kết hợp tính tuần tự của Waterfall và tính lặp của Agile.  
-
-\- Khách hàng có thể thấy sản phẩm sớm và phản hồi.  
-
-\- Phiên bản đầu tiên thường là sản phẩm cốt lõi (core product).
-
-
-
-\### Ví dụ tương tự
-
-Xây dựng ứng dụng Microsoft Word:  
-
-\- Lần 1: chỉ có chức năng gõ và lưu văn bản.  
-
-\- Lần 2: thêm định dạng (in đậm, in nghiêng).  
-
-\- Lần 3: thêm kiểm tra lỗi chính tả.
-
-
-
-\### Ưu điểm
-
-\- Linh hoạt hơn Waterfall.  
-
-\- Giảm rủi ro, khách hàng sớm nhận được giá trị.  
-
-
-
-\### Nhược điểm
-
-\- Cần thiết kế tổng thể tốt để các phần tích hợp trơn tru.
-
-
-
-\### Khi nên dùng
-
-\- Dự án lớn, có thể chia thành các module chức năng độc lập.
+\- Tăng hiệu quả làm việc của nhân viên lễ tân và quản lý.  
 
 
 
@@ -140,73 +50,21 @@ Xây dựng ứng dụng Microsoft Word:
 
 
 
-\## Mô hình Linh hoạt (Agile Model)
+\## ⚙️ Phạm vi hệ thống
 
 
 
-\### Khái niệm
+| Vai trò | Quyền hạn |
 
-Agile là một triết lý phát triển phần mềm tập trung vào:
+|----------|-----------|
 
-\- Lặp lại liên tục (iterations),
+| \*\*Quản trị viên\*\* | Quản lý tài khoản người dùng, cấu hình hệ thống |
 
-\- Hợp tác chặt chẽ với khách hàng,
+| \*\*Bác sĩ\*\* | Quản lý lịch khám, hồ sơ bệnh án, kê đơn thuốc |
 
-\- Và thích ứng với thay đổi.
+| \*\*Lễ tân\*\* | Đặt lịch hẹn, tiếp nhận bệnh nhân, in hóa đơn |
 
-
-
-Hai phương pháp phổ biến nhất: Scrum và Kanban.
-
-
-
-\### Đặc điểm
-
-\- Phân chia dự án thành các chu kỳ ngắn (sprints), thường 1–4 tuần.  
-
-\- Mỗi sprint cho ra một phần sản phẩm chạy được.  
-
-\- Nhấn mạnh giao tiếp trực tiếp, tự tổ chức, cải tiến liên tục.  
-
-\- Thay đổi yêu cầu được chào đón.
-
-
-
-\### Ví dụ tương tự
-
-Nấu một món ăn mới:  
-
-Bạn sẽ nêm nếm và điều chỉnh liên tục dựa trên phản hồi,  
-
-thay vì tuân thủ cứng nhắc công thức ban đầu —  
-
-để có được món ăn ngon nhất.
-
-
-
-\### Ưu điểm
-
-\- Rất linh hoạt, thích ứng nhanh.  
-
-\- Chất lượng cao nhờ phản hồi liên tục.  
-
-\- Khách hàng hài lòng do được tham gia vào quá trình.
-
-
-
-\### Nhược điểm
-
-\- Khó ước lượng chính xác thời gian và chi phí toàn dự án.  
-
-\- Cần khách hàng tham gia thường xuyên.  
-
-
-
-\### Khi nên dùng
-
-\- Dự án yêu cầu chưa rõ ràng hoặc hay thay đổi.  
-
-\- Dự án cần tốc độ cao, tính sáng tạo lớn.
+| \*\*Bệnh nhân\*\* | Đặt lịch online, xem lịch sử khám và đơn thuốc |
 
 
 
@@ -214,19 +72,27 @@ thay vì tuân thủ cứng nhắc công thức ban đầu —
 
 
 
-\## Tổng kết so sánh
+\## 🧩 Các chức năng chính
 
 
 
-| Mô hình | Cấu trúc | Linh hoạt | Hiển thị sớm sản phẩm | Phù hợp dự án |
+| Mã | Chức năng | Mô tả ngắn gọn |
 
-|----------|-----------|------------|------------------------|----------------|
+|----|------------|----------------|
 
-| Waterfall | Tuần tự, tuyến tính | Thấp | Không | Nhỏ, yêu cầu rõ |
+| F1 | Quản lý tài khoản | Thêm, sửa, xóa và phân quyền người dùng |
 
-| Incremental | Tăng dần theo module | Trung bình | Có | Lớn, chia module được |
+| F2 | Quản lý bệnh nhân | Lưu trữ thông tin, lịch sử khám, liên hệ |
 
-| Agile | Lặp nhanh theo sprint | Cao | Sớm và liên tục | Năng động, đổi mới |
+| F3 | Quản lý lịch hẹn | Tạo, chỉnh sửa, hủy lịch khám |
+
+| F4 | Hồ sơ bệnh án | Ghi nhận triệu chứng, chẩn đoán, đơn thuốc |
+
+| F5 | Quản lý thuốc | Danh mục thuốc, tồn kho, đơn giá |
+
+| F6 | Thanh toán | Tạo hóa đơn, theo dõi doanh thu |
+
+| F7 | Báo cáo thống kê | Doanh thu, số bệnh nhân, lượt khám |
 
 
 
@@ -234,9 +100,51 @@ thay vì tuân thủ cứng nhắc công thức ban đầu —
 
 
 
-\*\*Ghi chú:\*\*  
+\## 🧠 Mô hình tiến trình phần mềm
 
-Việc lựa chọn mô hình phụ thuộc vào đặc thù dự án, độ rõ của yêu cầu, nguồn lực, và mức độ thay đổi kỳ vọng của khách hàng.
+
+
+\*\*Incremental Model\*\* được chọn làm mô hình phát triển cho dự án này.  
+
+Hệ thống sẽ được xây dựng qua các giai đoạn tăng dần, mỗi lần thêm một module mới (ví dụ: Quản lý Bệnh nhân → Quản lý Lịch hẹn → Quản lý Đơn thuốc...).
+
+
+
+\### Ưu điểm:
+
+\- Dễ kiểm thử và bảo trì.  
+
+\- Người dùng sớm thấy sản phẩm mẫu.  
+
+\- Giảm rủi ro trong giai đoạn đầu.
+
+
+
+---
+
+
+
+\## 🧱 Kiến trúc \& Công nghệ
+
+
+
+| Thành phần | Công nghệ sử dụng |
+
+|-------------|-------------------|
+
+| \*\*Frontend\*\* | HTML, CSS, JavaScript (hoặc ReactJS) |
+
+| \*\*Backend\*\* | PHP / Python / Java |
+
+| \*\*Database\*\* | MySQL hoặc PostgreSQL |
+
+| \*\*Web Server\*\* | Apache / Nginx |
+
+| \*\*IDE\*\* | Visual Studio Code / IntelliJ / NetBeans |
+
+
+
+---
 
 
 
