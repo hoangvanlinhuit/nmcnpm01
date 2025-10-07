@@ -1,1 +1,3 @@
-Nhập môn CNPM
+\# Nhập môn CNPM
+echo "# NMCNPM"
+
