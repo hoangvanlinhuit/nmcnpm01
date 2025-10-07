@@ -1,6 +1,6 @@
 # HỆ THỐNG QUẢN LÝ PHÒNG KHÁM ĐƠN GIẢN  
 
-\*(Clinic Management System – CMS)\*
+*(Clinic Management System – CMS)\*
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-\## 📘 Giới thiệu
+## 📘 Giới thiệu
 
 
 
@@ -32,7 +32,7 @@ Dự án được thực hiện theo \*\*mô hình tiến trình phần mềm In
 
 
 
-\## 🎯 Mục tiêu
+## 🎯 Mục tiêu
 
 
 
@@ -50,7 +50,7 @@ Dự án được thực hiện theo \*\*mô hình tiến trình phần mềm In
 
 
 
-\## ⚙️ Phạm vi hệ thống
+## ⚙️ Phạm vi hệ thống
 
 
 
@@ -72,7 +72,7 @@ Dự án được thực hiện theo \*\*mô hình tiến trình phần mềm In
 
 
 
-\## 🧩 Các chức năng chính
+## 🧩 Các chức năng chính
 
 
 
@@ -100,7 +100,7 @@ Dự án được thực hiện theo \*\*mô hình tiến trình phần mềm In
 
 
 
-\## 🧠 Mô hình tiến trình phần mềm
+## 🧠 Mô hình tiến trình phần mềm
 
 
 
@@ -110,7 +110,7 @@ Hệ thống sẽ được xây dựng qua các giai đoạn tăng dần, mỗi 
 
 
 
-\### Ưu điểm:
+### Ưu điểm:
 
 \- Dễ kiểm thử và bảo trì.  
 
