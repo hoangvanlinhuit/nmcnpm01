@@ -1,4 +1,4 @@
-\# HỆ THỐNG QUẢN LÝ PHÒNG KHÁM ĐƠN GIẢN  
+# HỆ THỐNG QUẢN LÝ PHÒNG KHÁM ĐƠN GIẢN  
 
 \*(Clinic Management System – CMS)\*
 
@@ -124,7 +124,7 @@ Hệ thống sẽ được xây dựng qua các giai đoạn tăng dần, mỗi 
 
 
 
-\## 🧱 Kiến trúc \& Công nghệ
+## 🧱 Kiến trúc \& Công nghệ
 
 
 
