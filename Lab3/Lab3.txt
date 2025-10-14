@@ -1,0 +1,83 @@
+Lab 3.1 – Review Process Models and IDEs
+----------------------------------------
+
+Mục tiêu:
+Hiểu và so sánh các mô hình phát triển phần mềm (Software Development Life Cycle - SDLC),
+đồng thời làm quen với các công cụ phát triển tích hợp (IDE).
+
+----------------------------------------
+I. Giới thiệu
+----------------------------------------
+Vòng đời phát triển phần mềm (SDLC - Software Development Life Cycle) mô tả quá trình
+xây dựng một phần mềm từ khi hình thành ý tưởng đến khi bảo trì và nâng cấp.
+Mỗi mô hình có cách tổ chức, đặc điểm và phạm vi áp dụng riêng.
+
+----------------------------------------
+II. Các mô hình phát triển phần mềm tiêu biểu
+----------------------------------------
+
+1. Waterfall Model (Mô hình thác nước)
+--------------------------------------
+- Phát triển theo các giai đoạn tuyến tính: Yêu cầu → Thiết kế → Cài đặt → Kiểm thử → Triển khai → Bảo trì.
+- Mỗi giai đoạn phải hoàn thành trước khi bắt đầu giai đoạn tiếp theo.
+- Ưu điểm:
+  + Dễ quản lý, phù hợp với dự án nhỏ, yêu cầu rõ ràng.
+  + Tài liệu hóa chi tiết, có quy trình rõ ràng.
+- Nhược điểm:
+  + Thiếu linh hoạt, khó thay đổi khi dự án đã vào giai đoạn sau.
+  + Khó phản hồi sớm từ khách hàng.
+
+2. Incremental / Iterative Model (Mô hình phát triển lặp & tăng dần)
+--------------------------------------------------------------------
+- Phần mềm được phát triển qua nhiều phiên bản (bản tăng dần), mỗi bản bổ sung thêm tính năng.
+- Ưu điểm:
+  + Dễ kiểm thử, phản hồi sớm.
+  + Giảm rủi ro nhờ chia nhỏ chức năng.
+- Nhược điểm:
+  + Cần quản lý chặt chẽ các phiên bản.
+  + Thiết kế ban đầu có thể thay đổi nhiều lần.
+
+3. Spiral Model (Mô hình xoắn ốc)
+---------------------------------
+- Kết hợp giữa mô hình lặp và quản lý rủi ro.
+- Mỗi vòng xoắn gồm 4 pha: Xác định mục tiêu → Phân tích rủi ro → Phát triển → Đánh giá.
+- Ưu điểm:
+  + Giảm rủi ro hiệu quả.
+  + Phù hợp với dự án lớn, phức tạp.
+- Nhược điểm:
+  + Chi phí cao, khó quản lý khi nhóm nhỏ.
+
+4. Agile / Scrum
+----------------
+- Phát triển linh hoạt, chia thành các sprint (chu kỳ ngắn 1–4 tuần).
+- Tập trung vào phản hồi khách hàng, cải tiến liên tục.
+- Ưu điểm:
+  + Linh hoạt, thích nghi nhanh với thay đổi.
+  + Có sự tham gia thường xuyên của khách hàng.
+- Nhược điểm:
+  + Khó dự đoán chi phí và tiến độ chính xác.
+  + Cần đội nhóm có kỷ luật và kỹ năng tự quản lý.
+
+----------------------------------------
+III. So sánh các mô hình
+----------------------------------------
+| Tiêu chí             | Waterfall | Iterative | Spiral | Agile/Scrum |
+|----------------------|------------|------------|---------|--------------|
+| Tính linh hoạt       | Thấp       | Trung bình | Cao     | Rất cao      |
+| Phản hồi khách hàng  | Muộn       | Sớm        | Sớm     | Liên tục     |
+| Rủi ro               | Cao        | Trung bình | Thấp    | Thấp         |
+| Tài liệu hóa         | Cao        | Trung bình | Cao     | Thấp         |
+| Phù hợp dự án        | Nhỏ, rõ yêu cầu | Vừa, dễ thay đổi | Lớn, rủi ro cao | Linh hoạt, startup |
+
+----------------------------------------
+IV. IDE (Integrated Development Environment)
+----------------------------------------
+- IDE là môi trường phát triển tích hợp giúp lập trình viên viết, kiểm thử, gỡ lỗi và triển khai phần mềm.
+- Một số IDE phổ biến:
+  + Visual Studio (C#, .NET)
+  + IntelliJ IDEA (Java, Kotlin)
+  + PyCharm (Python)
+  + VSCode (đa ngôn ngữ)
+  + Eclipse (Java, C++)
+
+----------------------------------------
