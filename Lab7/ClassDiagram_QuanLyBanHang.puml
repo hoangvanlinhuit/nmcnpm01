@@ -1,0 +1,75 @@
+@startuml
+class Customer {
+  -customerID: int
+  -name: string
+  -phone: string
+  -address: string
+  +getInfo()
+}
+
+class Employee {
+  -employeeID: int
+  -name: string
+  -role: string
+  +createOrder()
+}
+
+class Product {
+  -productID: int
+  -name: string
+  -price: double
+  -stock: int
+  +updateStock()
+}
+
+class Inventory {
+  -inventoryID: int
+  -productID: int
+  -quantity: int
+  +updateQuantity()
+}
+
+class Order {
+  -orderID: int
+  -orderDate: Date
+  -customerID: int
+  -employeeID: int
+  +calculateTotal()
+}
+
+class OrderDetail {
+  -orderID: int
+  -productID: int
+  -quantity: int
+  -unitPrice: double
+  +getSubTotal()
+}
+
+class Invoice {
+  -invoiceID: int
+  -orderID: int
+  -totalAmount: double
+  -invoiceDate: Date
+  +generateInvoice()
+}
+
+class Payment {
+  -paymentID: int
+  -invoiceID: int
+  -method: string
+  -status: string
+  +processPayment()
+}
+
+class Report {
+  +generateSalesReport()
+}
+
+Customer "1" -- "n" Order
+Employee "1" -- "n" Order
+Order "1" -- "n" OrderDetail
+Product "1" -- "n" OrderDetail
+Order "1" -- "1" Invoice
+Invoice "1" -- "1" Payment
+Product "1" -- "1" Inventory
+@enduml
